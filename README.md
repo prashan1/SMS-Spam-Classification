@@ -57,21 +57,31 @@ spam URGENT! Your Mobile No 07808726822 was awarded a L2,000 Bonus Caller Prize 
 ```
 
 ## Results 
-The predictions(accuracy scores) using various ML algorithms are as follows:
+The predictions(accuracy scores) using various ML algorithms are as follows:.
 
-![Predictions using different classifiers](predictions.png)
+precision: 0.98582996   ,1.        
+recall:    1.    ,    0.90070922.
+fscore: 0.99286442 ,  0.94776119.
+support:  974,       141.
+############################
+              precision    recall  f1-score   support.
 
--SimpleRNN
--LSTM
--Bidirection LSTM
+           0       0.99      1.00      0.99       974
+           1       1.00      0.90      0.95       141
 
+   micro avg       0.99      0.99      0.99      1115.
+   macro avg       0.99      0.95      0.97      1115.
+weighted avg       0.99      0.99      0.99      1115.
+ samples avg       0.99      0.99      0.99      1115.
 
 
 The Wordclouds below show the most common words occuring in each of the categories:
 
-Spam Messeges
+# Spam Messeges
 
+![Common Span Messeges](https://user-images.githubusercontent.com/57286404/82121082-1de3f500-97a8-11ea-848c-6c1c9729505c.jpg)
 
-![spam](https://user-images.githubusercontent.com/57286404/82121049-e6754880-97a7-11ea-9e1d-003c653edbdc.jpg)
+# Example
+![Example](https://user-images.githubusercontent.com/57286404/82121049-e6754880-97a7-11ea-9e1d-003c653edbdc.jpg)
 
-###### Validation accuracy using RNN is 81% and Test accuracy is 79%
+###### Validation accuracy using LSTM is 98.2% And by using Bidirection LSTM the test accuracy is 99/2%
