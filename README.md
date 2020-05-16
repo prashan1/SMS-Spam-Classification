@@ -69,13 +69,9 @@ The predictions(accuracy scores) using various ML algorithms are as follows:
 
 The Wordclouds below show the most common words occuring in each of the categories:
 
-SPAM
-
-![SPAM Messages](SPAM.png)
+Spam Messeges
 
 
-NOT SPAM
-
-![NOT SPAM Messages](NOT&#32;SPAM.png)
+![spam](https://user-images.githubusercontent.com/57286404/82121049-e6754880-97a7-11ea-9e1d-003c653edbdc.jpg)
 
 ###### Validation accuracy using RNN is 81% and Test accuracy is 79%
